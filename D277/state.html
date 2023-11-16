@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <header>Washington State</header>
+    <br>
+    <div class="navbar">
+        <nav>
+            <a class="active" href="state.html">State</a>
+            <a href="cities/capital.html">Capital</a>
+            <a href="cities/city1.html">Renton</a>
+            <a href="cities/city2.html">Seattle</a>
+            <a href="cities/city3.html">Bellevue</a>
+            <a href="cities/city4.html">Redmond</a>
+        </nav>
+    </div>
+    <div>
+        <img src="image/washington.jpeg" alt="Washington State's Mountain and Lake." width="82%"> 
+    </div>
+    <div>
+        <h1>Overview</h1>
+        <section class="stateoverview">
+            <p>
+                Nestled in the Pacific Northwest region of the United States, Washington State is a captivating blend of diverse landscapes, vibrant cities, and a rich cultural tapestry. Known for its stunning natural beauty, the state is home to the iconic Mount Rainier, the Olympic National Park, and the picturesque Puget Sound. The bustling metropolis of Seattle, with its futuristic skyline and the iconic Space Needle, serves as the state's cultural and economic hub. Washington is celebrated for its thriving tech industry, with giants like Microsoft and Amazon headquartered in the region. Beyond the urban centers, outdoor enthusiasts can explore lush forests, serene lakes, and the rugged Cascade Range. With a reputation for innovative thinking, a commitment to sustainability, and a love for the outdoors, Washington State captures the essence of the Pacific Northwest's dynamic spirit.
+            </p>
+            <aside>
+                <p>Don't forget to experience Washington State's renowned coffee culture, especially in Seattle, where cozy cafes and artisanal roasters line the streets. Whether you're exploring the urban charm of Pike Place Market or embarking on a scenic drive through the wine country of Walla Walla, the state's welcoming atmosphere and diverse offerings make it a destination that seamlessly blends urban sophistication with natural wonders.</p>
+            </aside>
+        </section>
+        <br>
+        <section class="fact">
+            <h1>Facts</h1>
+            <ul>
+                <li>Population: 7,951,150 millions in 2023</li>
+                <li>Year incorporated: 1889</li>
+                <li>Region: Northwest of the United States of America </li>
+                <li>Average income: USD 57,577 per year</li>
+            </ul>
+        </section>
+        <br>
+        <section class="thingtodo">
+            <h1>Things To Do:</h1>
+            <table>
+            <tr>
+                <th>Spring</th>
+                <th>Summer</th>
+                <th>Fall</th>
+                <th>Winter</th>
+            </tr>
+            <tr>
+                <td>Hiking & Camping</td>
+                <td>Visit farmer markets</td>
+                <td>Explore Coffee Shops</td>
+                <td>Visit Tea Houses</td>
+            </tr>
+            <tr>
+                <td>Scenic Drives</td>
+                <td>Go Fishing</td>
+                <td>Hiking & Camping</td>
+                <td>Enjoy Light Shows</td>
+                </tr>
+                <tr>
+                <td>Visit Museums</td>
+                <td>Hiking & Camping</td>
+                <td>Visit The Aquarium</td>
+                <td>Go Skiing</td>
+                </tr>
+            </table>
+        </section>
+        <br>
+        <section class="placetovisit">
+        <h1>Places To Visit:</h1>
+            <a href="https://www.pikeplacemarket.org/" target="_blank"><img src="image/pike.webp" height="300px"></a>
+            <a href="https://www.spaceneedle.com/" target="_blank"><img src="image/sneedle.jpeg" height="300px"></a>
+            <a href="https://www.nps.gov/olym/index.htm" target="_blank"><img src="image/olympicpark.jpeg" height="300px"></a>
+            <a href="https://www.nps.gov/mora/index.htm" target="_blank"><img src="image/rainier.jpeg" height="300px"></a>
+            <a href="https://www.nps.gov/noca/index.htm" target="_blank"><img src="image//ncascades.jpeg" height="300px"></a>
+            <a href="https://leavenworth.org/" target="_blank"><img src="image/leavenworth.webp" height="300px"></a>
+        </section>
+    </div>
+    <br>
+    <div id="container">
+        <form id="feedback">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email.." required valid>
+      
+          <label for="remail">Repeat Email</label>
+          <input type="email" id="remail" name="remail" placeholder="Re-enter your email.." onchange=check() required valid>
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit" onclick="send()">
+      
+        </form>
+      </div>
+    <footer>
+        <p>
+            &copy; 2023 by Zoe Dang. All Rights Reserved.
+        </p>
+    </footer>
+    <div class="bee">
+        <img src="image/bee.png" width="13%">
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>
